@@ -7,6 +7,6 @@ window.addEventListener('scroll', () => {
     var overlay = document.querySelector('.overlay');
 
     desc.style.transform = `translate(-50%, calc(-50% + ${scrollTop / 4}px))`;
-    overlay.style.top = `calc(100% + ${scrollTop / 1.1}px)`;
+    overlay.style.top = `calc(120% + ${scrollTop / 1.1}px)`;
 
 })
