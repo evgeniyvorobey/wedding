@@ -44,16 +44,16 @@ main{
 		position: absolute;
 		bottom: 100px;
 		right: 50%;
-		transform: translateX(-50%);
+		transform: translate(50%, 0);
 		svg{ fill: #fff;}
-		animation: moove 1s linear infinite;
+		animation: moove 1.5s linear infinite;
 	}
 
 }
 @keyframes moove {
 	0%{
 		bottom: 100px;
-		opacity: .2;
+		opacity: .15;
 	}
 	100%{
 		bottom: 130px;
