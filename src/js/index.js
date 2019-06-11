@@ -16,10 +16,12 @@ window.addEventListener('scroll', () => {
 
   // BIRD
 
+if(window.innerWidth <= 750) {
   glyph1.style.top = `calc(90% + ${scrollTop / 1.4}px)`;
   glyph2.style.top = `calc(80% + ${scrollTop / 1.2}px)`;
   glyph3.style.top = `calc(120% + ${scrollTop / 2.1}px)`;
   glyph4.style.top = `calc(100% + ${scrollTop / 1.6}px)`;
   glyph5.style.top = `calc(120% + ${scrollTop / 1.7}px)`;
+}
 
 })
