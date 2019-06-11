@@ -42,7 +42,7 @@ main{
 		width: 30px;
 		height: 30px;
 		position: absolute;
-		bottom: 20px;
+		bottom: 100px;
 		right: 50%;
 		transform: translateX(-50%);
 		svg{ fill: #fff;}
@@ -52,11 +52,11 @@ main{
 }
 @keyframes moove {
 	0%{
-		bottom: 20px;
+		bottom: 100px;
 		opacity: .2;
 	}
 	100%{
-		bottom: 40px;
+		bottom: 130px;
 		opacity: .8;
 	}
 
